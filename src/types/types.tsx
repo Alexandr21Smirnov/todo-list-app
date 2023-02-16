@@ -5,7 +5,7 @@ export interface ITodo {
 }
 
 export interface IContext {
-    value: any;
+    value: string;
     todos: ITodo[];
     editId: string;
     setValue: (value: string) => void;
