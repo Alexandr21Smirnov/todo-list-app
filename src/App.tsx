@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TodoList from './components/TodoList';
+import Box from '@mui/material/Box';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+const App = () => {
+    return (
+
+        <Box
+            sx={{
+                minHeight: '100vh',
+                background: '#385c70',
+                color: '#fff',
+                padding: '3em'
+            }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+            <TodoList />
+        </Box>
+
+    );
+};
 
 export default App;
