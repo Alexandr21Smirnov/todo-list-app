@@ -1,7 +1,7 @@
 {
     "name": "todo-list-app",
     "version": "0.1.0",
-    "homepage": "https://github.com/Alexandr21Smirnov/todo-list-app",
+    "homepage": "https://Alexandr21Smirnov.github.io/todo-list-app/",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.5",
