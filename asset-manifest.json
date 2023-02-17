@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Alexandr21Smirnov/todo-list-app/static/js/main.475d1cba.js",
-    "index.html": "/Alexandr21Smirnov/todo-list-app/index.html",
-    "main.475d1cba.js.map": "/Alexandr21Smirnov/todo-list-app/static/js/main.475d1cba.js.map"
+    "main.js": "/todo-list-app/static/js/main.475d1cba.js",
+    "index.html": "/todo-list-app/index.html",
+    "main.475d1cba.js.map": "/todo-list-app/static/js/main.475d1cba.js.map"
   },
   "entrypoints": [
     "static/js/main.475d1cba.js"
