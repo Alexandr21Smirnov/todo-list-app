@@ -82,14 +82,16 @@ const TodoForm = () => {
             >
                 {editId ? 'Update Todo' : 'Add Todo'}
             </Button>
-            <Button
-                color="primary"
-                variant="contained"
-                sx={{ marginLeft: '2em', minWidth: '4em' }}
-                onClick={clearTodo}
-            >
-                Clear all
-            </Button>
+            {todos.length > 0 ? (
+                <Button
+                    color="primary"
+                    variant="contained"
+                    sx={{ marginLeft: '2em', minWidth: '4em' }}
+                    onClick={clearTodo}
+                >
+                    Clear all
+                </Button>
+            ) : null}
         </Box>
     );
 };
